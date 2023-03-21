@@ -1,0 +1,48 @@
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    border: 1px rgb(152, 209, 228) solid;
+    background-color: lightblue;
+    color: white;
+    border-radius: 999em;
+    margin-top: 10px;
+}
+.button:hover {
+    background-color: rgb(78, 78, 215);
+}
+main {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    margin-top: 10px;
+}
+/* main img:hover {
+    transform: scale(1.01);
+} */
+#overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#overlay.show {
+    display: flex;
+}
+#overlay figure {
+    max-width: 50em;
+}
+#overlay img {
+    width: 100%;
+}
+/* lägg upp på github med egen design */
