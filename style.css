@@ -1,7 +1,10 @@
 h2 {
     text-align: center;
+    color: white;
 }
-
+body {
+    background-color: #212426;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
